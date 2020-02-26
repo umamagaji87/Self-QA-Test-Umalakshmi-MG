@@ -1,0 +1,261 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1348035081,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AddInfoStep.setup()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Add Personal information",
+        "description": "",
+        "id": "about-personnel-information;add-personal-information",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 89763650,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User Launch Chrome Browser",
+            "match": {
+              "location": "AddInfoStep.user_Launch_Chrome_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 136072866,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User maximaze the window",
+            "match": {
+              "location": "AddInfoStep.user_maximaze_the_window()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 918969359,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User opens URL \"https://csb-idv4r.netlify.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://csb-idv4r.netlify.com/",
+                  "offset": 16
+                }
+              ],
+              "location": "AddInfoStep.user_opens_URL(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 454841467,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters Address \"Norwood\" and \"Park Blvd\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Norwood",
+                  "offset": 21
+                },
+                {
+                  "val": "Park Blvd",
+                  "offset": 35
+                }
+              ],
+              "location": "AddInfoStep.user_enters_Address_and(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1837305380,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters location \"Austin\" \"TX\" and \"78752\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Austin",
+                  "offset": 22
+                },
+                {
+                  "val": "TX",
+                  "offset": 31
+                },
+                {
+                  "val": "78752",
+                  "offset": 40
+                }
+              ],
+              "location": "AddInfoStep.user_enters_location_and(String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 992773453,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters contact details \"5122180723\" and \"abc@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5122180723",
+                  "offset": 29
+                },
+                {
+                  "val": "abc@gmail.com",
+                  "offset": 46
+                }
+              ],
+              "location": "AddInfoStep.user_enters_contact_details_and(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1363597831,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enters DOB \"03\" \"03\" and \"1987\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "03",
+                  "offset": 17
+                },
+                {
+                  "val": "03",
+                  "offset": 22
+                },
+                {
+                  "val": "1987",
+                  "offset": 31
+                }
+              ],
+              "location": "AddInfoStep.user_enters_DOB_and(String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4663449061,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User click submit button",
+            "match": {
+              "location": "AddInfoStep.user_click_submit_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2964220913,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User views personal information",
+            "match": {
+              "location": "VerfiyInfoStep.user_views_personal_information()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 35627397,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User can view confirmation message \"Please double check your information. We use this for verification purposes.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Please double check your information. We use this for verification purposes.",
+                  "offset": 36
+                }
+              ],
+              "location": "VerfiyInfoStep.user_can_view_confirmation_message(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 55798838,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User click on continue button",
+            "match": {
+              "location": "VerfiyInfoStep.user_click_on_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 23371765,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User view message status \"Success!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Success!",
+                  "offset": 26
+                }
+              ],
+              "location": "SubmitInfoStep.user_view_message_status(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 71455424,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 16,
+                "value": "#When User application is success click on Startover"
+              }
+            ],
+            "line": 17,
+            "name": "User close window",
+            "match": {
+              "location": "SubmitInfoStep.user_close_window()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "About Personnel information",
+    "description": "",
+    "id": "about-personnel-information",
+    "keyword": "Feature",
+    "uri": "Features/PeronalInfo.feature"
+  }
+]
